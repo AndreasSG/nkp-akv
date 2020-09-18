@@ -141,6 +141,31 @@ a {
   text-shadow: none;
 }
 
+/* --- PHONE SPECIFIC CSS --- */ 
+
+@media (max-width: 1000px) {
+  .main-wrapper {
+    display: grid;
+
+    grid-template-rows: 0.5fr 5fr;
+    grid-template-columns: auto;
+}
+
+  .hours-wrapper {
+    width: 70vw;
+  }
+
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .main-wrapper .background-img {
+    background-position: left;
+  }
+}
+
 /* --- ANIMATIONS --- */ 
 
 
