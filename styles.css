@@ -144,6 +144,15 @@ a {
 /* --- PHONE SPECIFIC CSS --- */ 
 
 @media (max-width: 1000px) {
+  .nav-bar {
+    height: auto;
+    display: block;
+    padding: 0 1em;
+  }
+
+  .nav-bar .contact {
+    width: 100%;
+  }
   .main-wrapper {
     display: grid;
 
@@ -151,14 +160,14 @@ a {
     grid-template-columns: auto;
 }
 
-  .hours-wrapper {
-    width: 70vw;
-  }
-
   footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+  }
+
+  footer p {
+    text-shadow: none;
   }
 
   .main-wrapper .background-img {
