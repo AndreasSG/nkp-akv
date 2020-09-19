@@ -25,7 +25,7 @@ img {
 }
 
 .main-wrapper .background-img {
-  background-image: url("./assets/background-img.jpg");
+  background-image: url("./assets/background-img-small.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
